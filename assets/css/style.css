@@ -4373,7 +4373,7 @@ header.style-12 .info h2 {
 }
 
 h1.line-title .line-text {
-  font-size: 5rem;
+  font-size: 2rem;
   color: transparent;
   -webkit-text-stroke: 1px var(--color-yellowGreen);
 }
@@ -18888,5 +18888,11 @@ footer.style-15 .foot p {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .h1.line-title .line-text {
+    /* Adjust styles for smaller screens */
+    font-size: 2rem;
+  }
+}
 /* ======== */
 /* ======= */
